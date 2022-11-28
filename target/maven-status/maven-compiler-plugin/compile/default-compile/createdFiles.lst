@@ -10,6 +10,7 @@ EquippableSlotType.class
 PlayerCard.class
 TaxonomyType.class
 SpecialAbility.class
+PlayerCardWrapper.class
 EquipmentSlot.class
 ImageFormats.class
 TargetType.class

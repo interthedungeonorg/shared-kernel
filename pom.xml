@@ -6,7 +6,7 @@
 
   <groupId>com.interthedungeon.app</groupId>
   <artifactId>shared-kernel</artifactId>
-  <version>1.0.3-SNAPSHOT</version>
+  <version>1.0.4-SNAPSHOT</version>
 
   <name>shared-kernel</name>
   <!-- FIXME change it to the project's website -->
@@ -27,8 +27,8 @@
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-annotations</artifactId>
-      <version>2.15</version>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.9.8</version>
     </dependency>
   </dependencies>
 
