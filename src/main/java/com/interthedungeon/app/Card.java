@@ -1,7 +1,9 @@
 import com.interthedungeon.app.media.*;
 import com.interthedungeon.app.enumerations.*;
 import java.util.*;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Card {
     private String id;
     private String name;

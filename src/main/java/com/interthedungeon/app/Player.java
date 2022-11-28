@@ -1,5 +1,7 @@
 import com.interthedungeon.app.modifiers.*;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Player {
     private String id;
     private String subject;
