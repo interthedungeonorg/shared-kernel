@@ -3,6 +3,8 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class PlayerCard {
     private String id;
+    private String dungeonId;
+
     private Card card;
 
     private Player player;
@@ -47,5 +49,13 @@ public class PlayerCard {
 
     public void setBattleUsesRemaining(int battleUsesRemaining) {
         this.battleUsesRemaining = battleUsesRemaining;
+    }
+
+    public String getDungeonId() {
+        return this.dungeonId;
+    }
+
+    public void setDungeonId(String dungeonId) {
+        this.dungeonId = dungeonId;
     }
 }
