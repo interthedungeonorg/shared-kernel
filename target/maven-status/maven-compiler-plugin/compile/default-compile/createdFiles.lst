@@ -5,6 +5,7 @@ CrystalCost.class
 CardType.class
 ImageFormat.class
 Player.class
+Dungeon.class
 RarityType.class
 EquippableSlotType.class
 PlayerCard.class
