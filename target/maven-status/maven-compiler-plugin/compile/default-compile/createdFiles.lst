@@ -8,6 +8,8 @@ Player.class
 Dungeon.class
 RarityType.class
 EquippableSlotType.class
+UserProfile.class
+UserProfileWrapper.class
 PlayerCard.class
 TaxonomyType.class
 SpecialAbility.class
