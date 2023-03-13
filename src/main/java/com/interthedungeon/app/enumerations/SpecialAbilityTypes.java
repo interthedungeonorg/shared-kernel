@@ -1,7 +1,13 @@
 public enum SpecialAbilityTypes {
+    battleUses,
     discardCard,
-    seeNextRoom,
+    divide,
+    drawCard,
     knockoutModifier,
+    multiply,
     lootPercentModifier,
-    replaceCard
+    replaceCard,
+    monsterTaxonomyAssociatedValue,
+    cardTaxonomyAssociatedValue,
+    reroll
 }
